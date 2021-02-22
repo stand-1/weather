@@ -1,0 +1,119 @@
+
+.app{
+    margin: 0;
+    background: linear-gradient( 50deg, #e6ebb0, #1677ee);
+    background-size: 200% 200%;
+    animation: gradient 5s ease infinite;
+    height: 100vh;
+}
+@keyframes gradient {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+.weather{
+    background-size: 200% 200%;
+    animation: gradient 5s ease infinite;
+    width: 400px;
+    height: 500px;
+    border: 1px solid #041747;
+    border-bottom-width: 10px;
+    /*border-bottom-color: #29dcff;*/
+    border-color: #6EE3EB;
+    border-width: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(50deg, #e6ebb0, #1677ee) ;
+    border-radius: 20px;
+    background-size: 200% 200%;
+
+}
+.btn{
+    height: 25px;
+    border-radius: 5px;
+    font-size: 16px;
+    background: #62e1ee;
+    text-decoration: none;
+    font-family: cursive;
+    font-weight: 700;
+    color: #525655;
+    border: 1px solid white;
+    transition: background .2s linear, color .2s linear;
+}
+.input{
+    height: 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 10px 10px;
+    font-family: cursive;
+    font-weight: 700;
+    font-size: 16px;
+    color: #525655;
+}
+.png{
+    width: 120px;
+    position: absolute;
+    margin: -100px;
+    padding: 1px 0;
+}
+.static{
+    font-weight: 700;
+    font-size: 18px;
+    color: #525655;
+    font-family: cursive;
+}
+.static_1{
+    font-weight: 700;
+    font-size: 18px;
+    color: #525655;
+    font-family: cursive;
+}
+.static_2{
+    font-weight: 700;
+    font-size: 18px;
+    color: #525655;
+    font-family: cursive;
+}
+.static_3{
+    font-weight: 700;
+    font-size: 18px;
+    color: #525655;
+    font-family: cursive;
+}
+.static_4{
+    font-weight: 700;
+    font-size: 18px;
+    color: #525655;
+    font-family: cursive;
+}
+.static_5{
+    font-weight: 700;
+    font-size: 18px;
+    color: #525655;
+    font-family: cursive;
+}
+.static_6{
+    font-weight: 700;
+    font-size: 18px;
+    color: #525655;
+    font-family: cursive;
+}
+.img{
+    width: 100%;
+    height: 44%;
+    position: absolute;
+    padding: -30px 0 -29px;
+    margin: -243px -387px
+}
